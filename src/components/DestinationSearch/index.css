@@ -1,0 +1,40 @@
+.destination-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+  background-color: #f1f5f9;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #0f172a;
+  flex-grow: 1;
+}
+
+.destinations-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 24px;
+}
